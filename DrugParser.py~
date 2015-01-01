@@ -41,7 +41,7 @@ for mainterm in root.iter('mainTerm'):
 			underdose1 = cell.text
 	#Persist to Database	
 	if poisoningAcc1 != "" or poisoningIsh1 != "" or poisoningAss1 != "" or poisoningUndeter1 != "" or adverseEffect1 != "" or underdose1 != "":
-		persist("localhost", "user", "password", "database", substance, poisoningAcc1, poisoningIsh1, poisoningAss1, poisoningUndeter1, adverseEffect1, underdose1)
+		persist("138.91.188.176", "tfash", "rqeetub5AFv", "tnaga", substance, poisoningAcc1, poisoningIsh1, poisoningAss1, poisoningUndeter1, adverseEffect1, underdose1)
 	for term in mainterm.findall('term'):
 		poisoningAcc2 = ""
 		poisoningIsh2 = ""
@@ -73,7 +73,7 @@ for mainterm in root.iter('mainTerm'):
 				underdose2 = cell.text
 			#Persist to the database
 		if poisoningAcc2 != "" or poisoningIsh2 != "" or poisoningAss2 != "" or poisoningUndeter2 != "" or adverseEffect2 != "" or underdose2 != "":
-			persist("localhost", "user", "password", "database", substance1, poisoningAcc2, poisoningIsh2, poisoningAss2, poisoningUndeter2, adverseEffect2, underdose2)
+			persist("138.91.188.176", "tfash", "rqeetub5AFv", "tnaga", substance1, poisoningAcc2, poisoningIsh2, poisoningAss2, poisoningUndeter2, adverseEffect2, underdose2)
 		for term2 in term.findall('term'):
 			poisoningAcc3 = ""
 			poisoningIsh3 = ""
@@ -105,7 +105,7 @@ for mainterm in root.iter('mainTerm'):
 					underdose3 = cell.text
 			#Persist to database
 			if poisoningAcc3 != "" or poisoningIsh3 != "" or poisoningAss3 != "" or poisoningUndeter3 != "" or adverseEffect3 != "" or underdose3 != "":
-				persist("localhost", "user", "password", "database", substance2, poisoningAcc3, poisoningIsh3, poisoningAss3, poisoningUndeter3, adverseEffect3, underdose3)
+				persist("138.91.188.176", "tfash", "rqeetub5AFv", "tnaga", substance2, poisoningAcc3, poisoningIsh3, poisoningAss3, poisoningUndeter3, adverseEffect3, underdose3)
 			for term3 in term2.findall('term'):
 				poisoningAcc4 = ""
 				poisoningIsh4 = ""
@@ -137,7 +137,7 @@ for mainterm in root.iter('mainTerm'):
 						underdose4 = cell.text
 				#Persist to database
 				if poisoningAcc4 != "" or poisoningIsh4 != "" or poisoningAss4 != "" or poisoningUndeter4 != "" or adverseEffect4 != "" or underdose4 != "":
-					persist("localhost", "user", "password", "database", substance3, poisoningAcc4, poisoningIsh4, poisoningAss4, poisoningUndeter4, adverseEffect4, underdose4)
+					persist("138.91.188.176", "tfash", "rqeetub5AFv", "tnaga", substance3, poisoningAcc4, poisoningIsh4, poisoningAss4, poisoningUndeter4, adverseEffect4, underdose4)
 				for term4 in term3.findall('term'):
 					poisoningAcc5 = ""
 					poisoningIsh5 = ""
@@ -169,6 +169,6 @@ for mainterm in root.iter('mainTerm'):
 							underdose = cell.text
 					#Persist to database
 					if poisoningAcc5 != "" or poisoningIsh5 != "" or poisoningAss5 != "" or poisoningUndeter5 != "" or adverseEffect5 != "" or underdose5 != "":
-						persist("localhost", "user", "password", "database", substance4, poisoningAcc5, poisoningIsh5, poisoningAss5, poisoningUndeter5, adverseEffect5, underdose5)
+						persist("138.91.188.176", "tfash", "rqeetub5AFv", "tnaga", substance4, poisoningAcc5, poisoningIsh5, poisoningAss5, poisoningUndeter5, adverseEffect5, underdose5)
 
 
